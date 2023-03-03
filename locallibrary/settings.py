@@ -28,9 +28,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-zmu&m+l(d*=pz6
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['https://web-production-a615f.up.railway.app/', '127.0.0.1']
+ALLOWED_HOSTS = ['https://web-production-a615f.up.railway.app', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-a615f.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-a615f.up.railway.app']
 
 
 # Application definition
